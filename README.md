@@ -1,3 +1,60 @@
+# Application Name : Book Librabry
+# Includes 3 Phases
+1. Local, Non-ersisted list of books
+2. List of books persisted with outside API
+3. OutSide API + centralised state
+
+
+# Local, Non-ersisted list of books
+1. Will be discussing about how to handle forms
+2. How to get value from Input field - using "event.target.value" inside a function - onChange
+3. What is event.preventDefault?
+4. How to pass data bewteen components using props, state and event management?
+5. What is promise?
+6. State management on Array? IMP
+7. Why we cannot use push menthod to update state - because useState referencee to location in memory, when you Array using push method it mutates the existing array so location remains same and state this no changes made- so no rendering - should use "setTerm[...array, {id:123, title:event}]" - it reference new location.
+
+8. About Filter function - removing elements
+9. About map function - modifing funtion using rest or spread operator(...array)
+
+10. Data persistance with API request
+11. What is JSON-server? - Open source project for development and learning - similar to production server
+12. how to setup JSON -server and run it?
+14. API requests
+15. what is Standalone API Client?
+16. what is api.http?
+17. What is UseEffect()?
+18. 3 ways to use UseEffect function?
+
+---------------------------------------------------------------------------
+Till now, There was absolutely Zero persistent to data -> Soon user referesh page or open new window data used to vanish or loss all data 
+
+TO resolve this - will move to next phase
+
+# List of books persisted with outside API
+
+
+
+
+-----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
